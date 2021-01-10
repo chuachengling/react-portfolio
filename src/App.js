@@ -13,10 +13,10 @@ function App() {
   return (
     <>
     <CssBaseline/>
-    <Route exact path = "/" component = {Home}/>
-    <Route path = "/resume" component = {Resume}/>
-    <Route path = "/portfolio" component = {Portfolio}/>
-    <Route path = "/contacts" component = {Contacts}/>
+    <Route exact path = "/react-portfolio/" component = {Home}/>
+    <Route path = "/react-portfolio/resume" component = {Resume}/>
+    <Route path = "/react-portfolio/portfolio" component = {Portfolio}/>
+    <Route path = "/react-portfolio/contacts" component = {Contacts}/>
     </>
   );
 } 
